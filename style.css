@@ -6,7 +6,7 @@ body{
     box-sizing: border-box;
 }
 nav{
-    background: rgb(10, 128, 128);
+    background: #0a8080;
     height: 400px;
     width: 100%;
 }
@@ -50,55 +50,98 @@ a:hover{
     margin-left: 200px;
     width: 100%;
     height: 400px;
-    background-image: cover;
+    background-size: cover;
 }
 .resum{
     width: 400px;
     height: 400px;
     margin-left: 620px;
-    background-color: white;
+    background-color: #ecf1f1;
     margin-top: -420px;
+}
+.icon{
+    height: 200pv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.icon a{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    line-height: 40px;
+    box-shadow:2px 2px 0px 2px #0dc5c5;  
+
+}
+.icon li{
+    transition: all 0.3s linear ;
+}
+.icon a:hover{
+    transform: scale(1,1);
 }
 .container{
     margin-top: 200px;
     text-align: center;
+    font-size: 20px;
 }
-.box1{
-    height: 200px;
-    width: auto;
-    background-color: rgb(236, 241, 241);
-    color:black;
-    display: flex;
-    text-align: center;
-    font-size: 30px;
 
-}
 .body-container{
     margin-top: 100px;
     text-align: center;
 }
-.box2{
-    height: 200px;
-    width: auto;
-    background-color: rgb(236, 241, 241);
+.box-1{
+    height: 400px;
+    width: 350px;
+    background-color: #ecf1f1;
     color:black;
     display: flex;
     text-align: center;
     font-size: 30px;
+    margin-left: 40px;
 
 }
+.box-2{
+    height: 400px;
+    width: 350px;
+    background-color: #ecf1f1;
+    color:black;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 430px;
+    margin-top: -400px;
+
+}
+.box-3{
+    height: 400px;
+    width: 350px;
+    background-color: #ecf1f1;
+    color:black;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 820px;
+    margin-top: -400px;
+
+}
+
+
 .content1{
     margin-top: 150px;
     text-align: center;
 }
 .box3{
     height: 200px;
-    width: auto;
+    width: 900px;
     background-color: rgb(236, 241, 241);
     color:black;
     display: flex;
-    text-align: center;
     font-size: 30px;
+    margin-left: 150px;
 
 }.content2{
     margin-top: 200px;
@@ -106,12 +149,13 @@ a:hover{
 }
 .box4{
     height: 200px;
-    width: auto;
+    width: 900px;
     background-color: rgb(236, 241, 241);
     color:black;
     display: flex;
     text-align: center;
     font-size: 30px;
+    margin-left: 150px;
 
 }
 .content3{
@@ -119,9 +163,9 @@ a:hover{
     text-align: center;
 }
 .box5{
-    height: 400px;
+    height: 450px;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: #ecf1f1;
     color:rgb(255, 255, 255);
     display: flex;
     text-align: center;
@@ -130,18 +174,18 @@ a:hover{
 }
 .Form-contact{
     width: 400px;
-    height: auto;
+    height: 400px;
     margin:10px auto 10px;
-    background: rgb(92, 79, 79);
+    background: rgb(255, 255, 255);
     padding: 40px;
     box-sizing: border-box;
     position: relative;
-    margin-left: 800px;
+    margin-left: 10px;
 }
 .title{
     position: absolute;
     top:-10px;
-    background: blue;
+    background: rgb(160, 160, 168);
     color: white;
     padding: 10px 20px;
     font-weight:700 ;
@@ -155,35 +199,33 @@ a:hover{
     top:0;
     left: -10px;
     border-left: 5px solid transparent;
-    border-right: 5px solid blue;
+    border-right: 5px solid rgb(185, 185, 189);
     border-top:5px solid transparent;
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgb(156, 156, 160);
 }
 .form-content{
     padding-top:30px;
 
 }
-.form{
-    width: 100%;
-    margin-bottom: 10px;
-}
-.form.label{
+.label{
     text-transform: capitalize;
-    font-weight:700 ;
+    color: black;
+    font-size: 20px;
+
 }
-.form.input{
-    margin: 5px 0 0;
+.input{
+    margin: 5px 10px 0;
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     box-sizing: border-box;
-    border:2px solid blue;
-    color: red;
-    font-size: 12px;
+    border:3px solid rgb(145, 145, 145);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
     outline: none;
     border-radius: 3px;
 }
 .btn{
-   width: 100%; 
+   width: 350px; 
    background: blue;
    height: 40px;
    text-align: center;
@@ -193,8 +235,64 @@ a:hover{
    font-weight: bold;
    letter-spacing: 1px;
    cursor: pointer;
-   margin-top:20px;
+   margin-top:50px;
    border-radius: 3px;
-
-   
+   box-sizing: border-box;
 }
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.botton{
+    width: 300px;
+    height: 50px;
+    background:blue;
+    margin-top: 15px;
+    border-radius: 40px;
+    
+}
+.para{
+    float: left;
+    font-size: 15px;
+    color: rgb(10, 182, 139);
+    text-align: center;
+    margin-left: 460px;
+    margin-top: 10px;
+}
+.consntive{
+    height: 100pv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consentive a{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 50px;
+    box-shadow:1px 4px 2px 2px #0a8080;  
+
+}
+.consenivea li{
+    transition: all 0.3s linear ;
+}
+.consentive a:hover{
+    transform: scale(1,1);
+}
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-google {
+    color: #dd4b39;
+  }
+.fa-youtube {
+    color: #fc0101;
+  }
+  
+.fa-instagram {
+    columns: #125688;
+  }
