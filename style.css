@@ -240,7 +240,7 @@ a:hover{
 }
 .box5{
     height: 450px;
-    width: auto;
+    width: 100%;
     background-color: #ecf1f1;
     color:rgb(255, 255, 255);
     display: flex;
@@ -377,3 +377,32 @@ a:hover{
     columns: #125688;
 }
 
+@media(max-width:975px){
+    .header{
+        width: 100%;
+    }
+
+}
+@media(max-width:550px){
+    #cf{
+        width: 50%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container>div{
+        flex-direction: column;
+    }
+    .form-content{
+        width: 50%;
+    }
+    .form{
+        flex-direction: column;
+    }
+}
